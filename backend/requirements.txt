@@ -1,0 +1,23 @@
+# ============================================
+# BACKEND DEPENDENCIES
+# ============================================
+#
+# Install these with: pip install -r requirements.txt
+# Make sure your virtual environment is activated first!
+#
+# Commands to setup:
+# python -m venv venv
+# venv\Scripts\activate  (Windows)
+# source venv/bin/activate  (Mac/Linux)
+# pip install -r requirements.txt
+
+# Django Framework - Main web framework
+Django==4.2.7
+
+# Django REST Framework - For building REST APIs
+djangorestframework==3.14.0
+
+# Django CORS Headers - Allows frontend to communicate with backend
+# CORS = Cross-Origin Resource Sharing
+# Without this, browser will block requests from React to Django
+django-cors-headers==4.3.0
